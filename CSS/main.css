@@ -74,6 +74,17 @@ nav ul{
   padding-top: 20em;
   line-height: 55px;
 }
+
+.flex-item-store{
+  width:300px;
+  padding-top: 12em;
+  line-height: 55px;
+}
+
+.flex-item-store p{
+  margin:0;
+  line-height: 2;
+}
 .flex-img{
   width:420px;
   padding-top: 13em;
@@ -103,6 +114,27 @@ margin:0;
   font-weight: bold;
 }
 
+.btnAlbumSwitch{
+  border: solid;
+  background-color: inherit;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 15em;
+  height: 120px;
+  text-align: left;
+}
+
+.btnAlbumSwitch a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  line-height: 2;
+  border-bottom: 1px solid black;
+
+}
 .searchButton {
   position: absolute;
   background-color: white;
@@ -368,4 +400,9 @@ footer ul{
   cursor: pointer;
   text-decoration: none;
   color: white;
+}
+
+#Tourbtn{
+  border: none;
+  background-color: none;
 }
